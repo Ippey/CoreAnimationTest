@@ -35,17 +35,17 @@
 		966E15161650E2D6006B7997 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		966E15181650E2D6006B7997 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		966E151A1650E2D6006B7997 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		966E151E1650E2D6006B7997 /* CoreaAnimationTest-Info.plist */ = {isa = PBXFileReference; path = "CoreaAnimationTest-Info.plist"; sourceTree = "<group>"; };
+		966E151E1650E2D6006B7997 /* CoreaAnimationTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreaAnimationTest-Info.plist"; sourceTree = "<group>"; };
 		966E15201650E2D6006B7997 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		966E15221650E2D6006B7997 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		966E15241650E2D6006B7997 /* CoreaAnimationTest-Prefix.pch */ = {isa = PBXFileReference; path = "CoreaAnimationTest-Prefix.pch"; sourceTree = "<group>"; };
-		966E15251650E2D6006B7997 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		966E15241650E2D6006B7997 /* CoreaAnimationTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreaAnimationTest-Prefix.pch"; sourceTree = "<group>"; };
+		966E15251650E2D6006B7997 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		966E15261650E2D6006B7997 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		966E152D1650E2D6006B7997 /* CoreaAnimationTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreaAnimationTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		966E152E1650E2D6006B7997 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		966E15361650E2D6006B7997 /* CoreaAnimationTestTests-Info.plist */ = {isa = PBXFileReference; path = "CoreaAnimationTestTests-Info.plist"; sourceTree = "<group>"; };
+		966E15361650E2D6006B7997 /* CoreaAnimationTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreaAnimationTestTests-Info.plist"; sourceTree = "<group>"; };
 		966E15381650E2D6006B7997 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		966E153A1650E2D6006B7997 /* CoreaAnimationTestTests.h */ = {isa = PBXFileReference; path = CoreaAnimationTestTests.h; sourceTree = "<group>"; };
+		966E153A1650E2D6006B7997 /* CoreaAnimationTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreaAnimationTestTests.h; sourceTree = "<group>"; };
 		966E153B1650E2D6006B7997 /* CoreaAnimationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreaAnimationTestTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
