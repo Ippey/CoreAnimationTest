@@ -59,13 +59,17 @@
  */
 - (IBAction) buttonPressed:(UIButton *)sender{
     if(sender.tag == 10){
-        // プロパティベース
+        // プロパティベース　レイヤー
+        PropertyBaseLayerViewController *pvc = [[PropertyBaseLayerViewController alloc]
+                                                initWithNibName: @"PropertyBaseLayerView"
+                                                bundle: nil];
+        [self.navigationController pushViewController: pvc animated: YES];
+    }else if(sender.tag == 30){
+        // プロパティベース　アニメーション
         PropertyBaseAnimationViewController *pvc = [[PropertyBaseAnimationViewController alloc]
                                                     initWithNibName: @"PropertyBaseAnimationView"
                                                     bundle: nil];
         [self.navigationController pushViewController: pvc animated: YES];
-    }else if(sender.tag == 20){
-        
     }
 }
 

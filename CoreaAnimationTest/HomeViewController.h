@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PropertyBaseLayerViewController.h"
 #import "PropertyBaseAnimationViewController.h"
 
 @interface HomeViewController : UIViewController
