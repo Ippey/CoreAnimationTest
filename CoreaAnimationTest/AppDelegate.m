@@ -17,6 +17,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    hvc = [[HomeViewController alloc] initWithNibName: @"HomeView" bundle: nil];
+    nc = [[UINavigationController alloc] initWithRootViewController:hvc];
+    [self.window addSubview: nc.view];
     [self.window makeKeyAndVisible];
     return YES;
 }
