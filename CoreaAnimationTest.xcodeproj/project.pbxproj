@@ -10,6 +10,10 @@
 		960470BF16525D230053F7DE /* PropertyBaseLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 960470BD16525D230053F7DE /* PropertyBaseLayerViewController.m */; };
 		960470C016525D230053F7DE /* PropertyBaseLayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960470BE16525D230053F7DE /* PropertyBaseLayerView.xib */; };
 		960470C3165263E40053F7DE /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 960470C2165263E40053F7DE /* star.png */; };
+		9665D36A1653382500890B38 /* DelegateBaseLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9665D3681653382500890B38 /* DelegateBaseLayerViewController.m */; };
+		9665D36B1653382500890B38 /* DelegateBaseLayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9665D3691653382500890B38 /* DelegateBaseLayerView.xib */; };
+		9665D37016533DCC00890B38 /* ImplicitAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9665D36E16533DCC00890B38 /* ImplicitAnimationViewController.m */; };
+		9665D37116533DCC00890B38 /* ImplicitAnimationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9665D36F16533DCC00890B38 /* ImplicitAnimationView.xib */; };
 		966E15171650E2D6006B7997 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966E15161650E2D6006B7997 /* UIKit.framework */; };
 		966E15191650E2D6006B7997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966E15181650E2D6006B7997 /* Foundation.framework */; };
 		966E151B1650E2D6006B7997 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966E151A1650E2D6006B7997 /* CoreGraphics.framework */; };
@@ -44,6 +48,12 @@
 		960470BD16525D230053F7DE /* PropertyBaseLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyBaseLayerViewController.m; sourceTree = "<group>"; };
 		960470BE16525D230053F7DE /* PropertyBaseLayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PropertyBaseLayerView.xib; sourceTree = "<group>"; };
 		960470C2165263E40053F7DE /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		9665D3671653382500890B38 /* DelegateBaseLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateBaseLayerViewController.h; sourceTree = "<group>"; };
+		9665D3681653382500890B38 /* DelegateBaseLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateBaseLayerViewController.m; sourceTree = "<group>"; };
+		9665D3691653382500890B38 /* DelegateBaseLayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DelegateBaseLayerView.xib; sourceTree = "<group>"; };
+		9665D36D16533DCC00890B38 /* ImplicitAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImplicitAnimationViewController.h; sourceTree = "<group>"; };
+		9665D36E16533DCC00890B38 /* ImplicitAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImplicitAnimationViewController.m; sourceTree = "<group>"; };
+		9665D36F16533DCC00890B38 /* ImplicitAnimationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImplicitAnimationView.xib; sourceTree = "<group>"; };
 		966E15121650E2D6006B7997 /* CoreaAnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreaAnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		966E15161650E2D6006B7997 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		966E15181650E2D6006B7997 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -143,6 +153,12 @@
 				960470BC16525D230053F7DE /* PropertyBaseLayerViewController.h */,
 				960470BD16525D230053F7DE /* PropertyBaseLayerViewController.m */,
 				960470BE16525D230053F7DE /* PropertyBaseLayerView.xib */,
+				9665D3671653382500890B38 /* DelegateBaseLayerViewController.h */,
+				9665D3681653382500890B38 /* DelegateBaseLayerViewController.m */,
+				9665D3691653382500890B38 /* DelegateBaseLayerView.xib */,
+				9665D36D16533DCC00890B38 /* ImplicitAnimationViewController.h */,
+				9665D36E16533DCC00890B38 /* ImplicitAnimationViewController.m */,
+				9665D36F16533DCC00890B38 /* ImplicitAnimationView.xib */,
 			);
 			path = CoreaAnimationTest;
 			sourceTree = "<group>";
@@ -253,6 +269,8 @@
 				96BF4D411651DAFF0054F686 /* pic.jpg in Resources */,
 				960470C016525D230053F7DE /* PropertyBaseLayerView.xib in Resources */,
 				960470C3165263E40053F7DE /* star.png in Resources */,
+				9665D36B1653382500890B38 /* DelegateBaseLayerView.xib in Resources */,
+				9665D37116533DCC00890B38 /* ImplicitAnimationView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +310,8 @@
 				96BF4D381651D8DC0054F686 /* HomeViewController.m in Sources */,
 				96BF4D3E1651D9F80054F686 /* PropertyBaseAnimationViewController.m in Sources */,
 				960470BF16525D230053F7DE /* PropertyBaseLayerViewController.m in Sources */,
+				9665D36A1653382500890B38 /* DelegateBaseLayerViewController.m in Sources */,
+				9665D37016533DCC00890B38 /* ImplicitAnimationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

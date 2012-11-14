@@ -64,12 +64,23 @@
                                                 initWithNibName: @"PropertyBaseLayerView"
                                                 bundle: nil];
         [self.navigationController pushViewController: pvc animated: YES];
+    }else if(sender.tag == 11){
+        DelegateBaseLayerViewController *dvc = [[DelegateBaseLayerViewController alloc]
+                                                initWithNibName: @"DelegateBaseLayerView"
+                                                bundle: nil];
+        [self.navigationController pushViewController: dvc animated: YES];
     }else if(sender.tag == 30){
-        // プロパティベース　アニメーション
+        // 明示的アニメーション
         PropertyBaseAnimationViewController *pvc = [[PropertyBaseAnimationViewController alloc]
                                                     initWithNibName: @"PropertyBaseAnimationView"
                                                     bundle: nil];
         [self.navigationController pushViewController: pvc animated: YES];
+    }else if(sender.tag == 31){
+        // 暗黙的アニメーション
+        ImplicitAnimationViewController *ivc = [[ImplicitAnimationViewController alloc]
+                                                initWithNibName: @"ImplicitAnimationView"
+                                                bundle: nil];
+        [self.navigationController pushViewController: ivc animated: YES];
     }
 }
 

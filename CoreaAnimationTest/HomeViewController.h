@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "PropertyBaseLayerViewController.h"
+#import "DelegateBaseLayerViewController.h"
 #import "PropertyBaseAnimationViewController.h"
+#import "ImplicitAnimationViewController.h"
 
 @interface HomeViewController : UIViewController
 {
