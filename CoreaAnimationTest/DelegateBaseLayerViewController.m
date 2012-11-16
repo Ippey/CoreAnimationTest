@@ -36,7 +36,6 @@
     CALayer *layer = [CALayer layer];
     layer.delegate = self;
     layer.bounds = [ivPicture bounds];
-//    layer.needsDisplayOnBoundsChange = YES;
     [layer setNeedsDisplay];
     [ivPicture.layer addSublayer: layer];
     

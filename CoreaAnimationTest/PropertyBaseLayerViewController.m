@@ -76,8 +76,6 @@
     // サイズの指定
     layer.bounds = CGRectMake(0,0,150,150);
     
-    // 以下で画像のx:0,y:0を起点に設定可能
-//    layer.frame = CGRectMake(0,0,150,150);
     
     // レイヤーに表示する画像の設定
     UIImage *image = [UIImage imageNamed: @"star.png"];
@@ -97,17 +95,13 @@
     // 画像のレイヤーを取得
     CALayer *layer = ivPicture.layer;
     
-//    CALayer *layer = [CALayer layer];
-//    layer.frame = ivPicture.bounds;
     
     // シャドウの設定
     layer.masksToBounds = NO;
     layer.shadowOffset = CGSizeMake(2.5,2.5);
     layer.shadowColor = [[UIColor blueColor] CGColor];
     layer.shadowOpacity = 0.5;
-//    layer.shadowPath = [UIBezierPath bezierPathWithRect: ivPicture.bounds].CGPath;
     
-//    [ivPicture.layer addSublayer: layer];
     
 }
 
