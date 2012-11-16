@@ -81,6 +81,12 @@
                                                 initWithNibName: @"ImplicitAnimationView"
                                                 bundle: nil];
         [self.navigationController pushViewController: ivc animated: YES];
+    }else if(sender.tag == 40){
+        // トランザクション
+        TransactionViewController *tvc = [[TransactionViewController alloc]
+                                          initWithNibName: @"TransactionView"
+                                          bundle: nil];
+        [self.navigationController pushViewController: tvc animated: YES];
     }
 }
 

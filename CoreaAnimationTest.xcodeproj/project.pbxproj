@@ -25,6 +25,8 @@
 		966E15311650E2D6006B7997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966E15181650E2D6006B7997 /* Foundation.framework */; };
 		966E15391650E2D6006B7997 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 966E15371650E2D6006B7997 /* InfoPlist.strings */; };
 		966E153C1650E2D6006B7997 /* CoreaAnimationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 966E153B1650E2D6006B7997 /* CoreaAnimationTestTests.m */; };
+		968069441654F8C400AF0F35 /* TransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968069421654F8C400AF0F35 /* TransactionViewController.m */; };
+		968069451654F8C400AF0F35 /* TransactionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968069431654F8C400AF0F35 /* TransactionView.xib */; };
 		96BF4D381651D8DC0054F686 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BF4D361651D8DC0054F686 /* HomeViewController.m */; };
 		96BF4D391651D8DC0054F686 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96BF4D371651D8DC0054F686 /* HomeView.xib */; };
 		96BF4D3E1651D9F80054F686 /* PropertyBaseAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BF4D3C1651D9F70054F686 /* PropertyBaseAnimationViewController.m */; };
@@ -70,6 +72,9 @@
 		966E15381650E2D6006B7997 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		966E153A1650E2D6006B7997 /* CoreaAnimationTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreaAnimationTestTests.h; sourceTree = "<group>"; };
 		966E153B1650E2D6006B7997 /* CoreaAnimationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreaAnimationTestTests.m; sourceTree = "<group>"; };
+		968069411654F8C400AF0F35 /* TransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionViewController.h; sourceTree = "<group>"; };
+		968069421654F8C400AF0F35 /* TransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionViewController.m; sourceTree = "<group>"; };
+		968069431654F8C400AF0F35 /* TransactionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionView.xib; sourceTree = "<group>"; };
 		96BF4D351651D8DC0054F686 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		96BF4D361651D8DC0054F686 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		96BF4D371651D8DC0054F686 /* HomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
@@ -159,6 +164,9 @@
 				9665D36D16533DCC00890B38 /* ImplicitAnimationViewController.h */,
 				9665D36E16533DCC00890B38 /* ImplicitAnimationViewController.m */,
 				9665D36F16533DCC00890B38 /* ImplicitAnimationView.xib */,
+				968069411654F8C400AF0F35 /* TransactionViewController.h */,
+				968069421654F8C400AF0F35 /* TransactionViewController.m */,
+				968069431654F8C400AF0F35 /* TransactionView.xib */,
 			);
 			path = CoreaAnimationTest;
 			sourceTree = "<group>";
@@ -271,6 +279,7 @@
 				960470C3165263E40053F7DE /* star.png in Resources */,
 				9665D36B1653382500890B38 /* DelegateBaseLayerView.xib in Resources */,
 				9665D37116533DCC00890B38 /* ImplicitAnimationView.xib in Resources */,
+				968069451654F8C400AF0F35 /* TransactionView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +321,7 @@
 				960470BF16525D230053F7DE /* PropertyBaseLayerViewController.m in Sources */,
 				9665D36A1653382500890B38 /* DelegateBaseLayerViewController.m in Sources */,
 				9665D37016533DCC00890B38 /* ImplicitAnimationViewController.m in Sources */,
+				968069441654F8C400AF0F35 /* TransactionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
